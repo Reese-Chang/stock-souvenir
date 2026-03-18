@@ -25,7 +25,7 @@
               </span>
             </h1>
             <p class="text-gray-400 text-sm md:text-base mt-2">
-              即時查詢最後買進日 · CP 值排行 · 零股領取資格
+              即時查詢最後買進日 · 零股領取資格
             </p>
           </div>
 
@@ -304,7 +304,7 @@ const searchQuery = ref('')
 const searchResults = ref<Souvenir[]>([])
 
 // 熱門搜尋標籤
-const hotTags = ['保溫杯', '零股可領', '米', '禮券']
+const hotTags = ['保溫杯', '商品卡', '米', '禮券', '香皂', '咖啡']
 
 /**
  * 執行搜尋 - 在全量資料中過濾符合關鍵字的紀念品
