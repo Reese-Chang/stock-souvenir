@@ -19,6 +19,7 @@ export default defineNuxtConfig({
         { name: 'description', content: '查詢台股股東會紀念品、最後買進日、零股資格，輕鬆掌握每一份小禮物！' }
       ],
       link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap' }
       ]
