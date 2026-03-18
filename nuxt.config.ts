@@ -2,9 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-
-  // 引入 Tailwind CSS 模組
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@vercel/analytics'],
 
   // 全域 CSS
   css: ['~/assets/css/main.css'],

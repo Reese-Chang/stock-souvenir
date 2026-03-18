@@ -205,12 +205,7 @@ import type { Souvenir } from '~/data/souvenirs'
 const route = useRoute()
 const stockCode = route.params.stockCode as string
 
-// const { data, pending, error } = await useFetch<{ data: Souvenir[] }>('http://localhost:3000/api/souvenirs')
 const { data, pending, error } = await useFetch<{ data: Souvenir[] }>('/api/souvenirs')
-
-// 印出資料讓您可以在終端機或瀏覽器 Console 查看
-console.log(`205詳情頁 (${stockCode}) 抓到的 API 資料:`, data.value)
-
 
 
 const souvenir = computed(() => {
